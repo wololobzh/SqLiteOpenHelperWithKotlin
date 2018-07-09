@@ -113,7 +113,7 @@ class PersonneDao(context: Context)
 
     /**
      * Fonction permettant de supprimer un enregistrement dans la table personnes
-     * Une requête UPDATE sera envoyée à la bdd.
+     * Une requête DELETE sera envoyée à la bdd.
      */
     fun delete(id:Int)
     {
